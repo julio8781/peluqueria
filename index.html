@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluquería Estilo Único</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Peluquería Estilo Único</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="seccion-principal">
+        <h2>Bienvenidos a Peluquería Estilo Único</h2>
+        <p>Donde cuidamos de tu estilo con profesionalismo y dedicación.</p>
+        <button id="reservarBtn">¡Reserva tu cita!</button>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <h3>Corte de cabello</h3>
+            <p>Cortes modernos y clásicos.</p>
+        </div>
+        <div class="servicio">
+            <h3>Coloración</h3>
+            <p>Los mejores colores para tu cabello.</p>
+        </div>
+        <div class="servicio">
+            <h3>Tratamientos capilares</h3>
+            <p>Cuida y fortalece tu cabello.</p>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria-imagenes">
+            <img src="img/corte1.jpg" alt="Corte moderno">
+            <img src="img/corte2.jpg" alt="Corte clásico">
+            <img src="img/coloracion1.jpg" alt="Coloración creativa">
+        </div>
+    </section>
+
+    <section id="equipo">
+        <h2>Conoce a nuestro equipo</h2>
+        <div class="equipo-miembro">
+            <img src="img/estilista1.jpg"Estilista 1">
+            <h3>Laura García</h3>
+            <p>Especialista en coloración.</p>
+        </div>
+        <div class="equipo-miembro">
+            <img src="img/estilista2.jpg" alt="Estilista 2">
+            <h3>Juan Pérez</h3>
+            <p>Especialista en cortes modernos.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="formContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Peluquería Estilo Único. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
